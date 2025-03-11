@@ -44,15 +44,16 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({
     };
   }, [delay]);
 
-  const Tag = element as keyof JSX.IntrinsicElements;
+  // Fix for TypeScript error - Define a type-safe approach for dynamic elements
+  const Component = element as React.ElementType;
   
   return (
-    <Tag
-      ref={elementRef as any}
+    <Component
+      ref={elementRef}
       className={cn("opacity-0", className)}
     >
       {text}
-    </Tag>
+    </Component>
   );
 };
 
