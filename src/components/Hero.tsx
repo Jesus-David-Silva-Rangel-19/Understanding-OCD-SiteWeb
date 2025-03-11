@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
   return (
     <div 
       ref={heroRef} 
-      className="min-h-screen flex flex-col items-center justify-center px-4 py-20 pt-28 opacity-0 sticky top-0 z-10 bg-gradient-to-b from-background to-background/95"
+      className="min-h-screen flex flex-col items-center justify-center px-4 py-20 pt-28 opacity-0 bg-gradient-to-b from-background to-background/95"
     >
       <div className="glass-card p-8 md:p-12 max-w-4xl mx-auto text-center">
         <div className="info-chip mb-4">
