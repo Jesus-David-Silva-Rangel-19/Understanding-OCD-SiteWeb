@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef } from "react";
-import { Brain, ArrowDown } from "lucide-react";
+import { Brain, ArrowDown, Award } from "lucide-react";
 import AnimatedText from "./AnimatedText";
 
 const Hero: React.FC = () => {
@@ -36,6 +36,15 @@ const Hero: React.FC = () => {
           className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8"
           delay={600}
         />
+        
+        <div className="mt-4 text-left px-4 md:px-8 py-4 bg-primary/5 rounded-lg border border-primary/10">
+          <div className="flex items-center mb-2">
+            <Award className="w-5 h-5 text-primary mr-2" />
+            <h3 className="font-alegreya font-black text-xl">Aprendiendo a vivir con TOC</h3>
+          </div>
+          <p className="text-gray-700 italic mb-2">Un recorrido por retos y oportunidades</p>
+          <p className="text-sm text-gray-600">Por: Jesús David Silva Rangel</p>
+        </div>
         
         <div className="mt-10 animate-slide-up opacity-0" style={{ animationDelay: "900ms" }}>
           <a 

@@ -2,6 +2,7 @@
 import React, { useRef, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import AnimatedText from "./AnimatedText";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface InfoSectionProps {
   id: string;
@@ -11,6 +12,8 @@ interface InfoSectionProps {
   children: React.ReactNode;
   className?: string;
   inverse?: boolean;
+  titleKey?: string;
+  descriptionKey?: string;
 }
 
 const InfoSection: React.FC<InfoSectionProps> = ({
@@ -21,8 +24,11 @@ const InfoSection: React.FC<InfoSectionProps> = ({
   children,
   className,
   inverse = false,
+  titleKey,
+  descriptionKey,
 }) => {
   const sectionRef = useRef<HTMLDivElement>(null);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -49,6 +55,9 @@ const InfoSection: React.FC<InfoSectionProps> = ({
     };
   }, []);
 
+  const displayTitle = titleKey ? t(titleKey) : title;
+  const displayDescription = descriptionKey ? t(descriptionKey) : description;
+
   return (
     <section
       id={id}
@@ -64,17 +73,17 @@ const InfoSection: React.FC<InfoSectionProps> = ({
           {icon && <div className="mb-4 text-primary">{icon}</div>}
           <div className="info-chip mb-3">
             {icon}
-            <span>{title}</span>
+            <span>{displayTitle}</span>
           </div>
           <AnimatedText
             element="h2"
-            text={title}
+            text={displayTitle}
             className="text-3xl md:text-4xl mb-4"
           />
-          {description && (
+          {displayDescription && (
             <AnimatedText
               element="p"
-              text={description}
+              text={displayDescription}
               className="text-lg text-gray-600"
               delay={300}
             />

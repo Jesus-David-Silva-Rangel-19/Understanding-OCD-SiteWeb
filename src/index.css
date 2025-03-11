@@ -110,3 +110,42 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--primary) / 0.5);
 }
+
+/* Responsive improvements */
+@media (max-width: 640px) {
+  .glass-card {
+    @apply p-4;
+  }
+  
+  .section-container {
+    @apply py-12;
+  }
+  
+  h1 {
+    @apply text-3xl;
+  }
+  
+  h2 {
+    @apply text-2xl;
+  }
+  
+  h3 {
+    @apply text-xl;
+  }
+  
+  .info-chip {
+    @apply text-xs px-2 py-0.5;
+  }
+}
+
+/* Table responsive fixes */
+@media (max-width: 768px) {
+  table {
+    @apply block w-full overflow-x-auto;
+  }
+  
+  td, th {
+    @apply p-2 text-sm;
+  }
+}
+

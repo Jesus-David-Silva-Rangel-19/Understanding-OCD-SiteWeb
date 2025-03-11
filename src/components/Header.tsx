@@ -1,9 +1,11 @@
 
 import React, { useEffect, useState } from "react";
 import { Brain, Sparkles } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,7 +29,7 @@ const Header: React.FC = () => {
           <div className="flex items-center space-x-2 animate-fade-in">
             <Brain className="w-6 h-6 text-primary" />
             <h2 className="text-lg md:text-xl font-alegreya font-black">
-              OCD is also part of the neurodivergent spectrum
+              {t("header.title")}
             </h2>
             <Sparkles className="w-6 h-6 text-primary animate-pulse-slow" />
           </div>
