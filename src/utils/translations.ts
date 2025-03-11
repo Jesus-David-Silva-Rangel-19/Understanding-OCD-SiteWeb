@@ -1,16 +1,15 @@
-
 const translations = {
   en: {
     // Header
     "header.title": "OCD is also part of the neurodivergent spectrum",
     
     // Hero
-    "hero.chip": "Obsessive Compulsive Disorder",
+    "hero.disorder": "Obsessive Compulsive Disorder",
     "hero.title": "Understanding OCD",
     "hero.description": "A comprehensive guide to Obsessive Compulsive Disorder, its symptoms, diagnosis, and treatment options.",
-    "hero.subtitle": "Learning to live with OCD",
-    "hero.journey": "A journey of challenges and opportunities",
-    "hero.author": "By: Jesús David Silva Rangel",
+    "hero.card.title": "Learning to live with OCD",
+    "hero.card.subtitle": "Machine Learning Patient and Engineer",
+    "hero.card.author": "By: Jesús David Silva Rangel",
     "hero.explore": "Explore",
     
     // What is OCD
@@ -71,7 +70,7 @@ const translations = {
     "diagnosis.tools.t3": "Florida Obsessive-Compulsive Inventory (FOCI)",
     
     "diagnosis.tests.title": "Medical Tests:",
-    "diagnosis.tests.p1": "There are no specific laboratory tests for diagnosing OCD. However, medical tests may be ordered to rule out other conditions that might be causing or contributing to the symptoms, especially when the presentation is atypical or there are neurological symptoms. These may include blood tests, neuroimaging (MRI, CT scan), or electroencephalography (EEG) in some cases.",
+    "diagnosis.tests.p1": "There are no specific laboratory tests for diagnosing OCD. However, medical tests may be ordered to rule out other conditions that might be causing or contributing to the symptoms, especially when the presentation is atypical or there are neurological symptoms. These may include blood tests, neuroimaging (MRI, CT scan), or electroencefalography (EEG) in some cases.",
     
     // Prognosis
     "prognosis.title": "Prognosis",
@@ -265,12 +264,12 @@ const translations = {
     "header.title": "El TOC también es parte del espectro neurodivergente",
     
     // Hero
-    "hero.chip": "Trastorno Obsesivo Compulsivo",
+    "hero.disorder": "Trastorno Obsesivo Compulsivo",
     "hero.title": "Comprendiendo el TOC",
     "hero.description": "Una guía completa sobre el Trastorno Obsesivo Compulsivo, sus síntomas, diagnóstico y opciones de tratamiento.",
-    "hero.subtitle": "Aprendiendo a vivir con TOC",
-    "hero.journey": "Un recorrido por retos y oportunidades",
-    "hero.author": "Por: Jesús David Silva Rangel",
+    "hero.card.title": "Aprendiendo a vivir con TOC",
+    "hero.card.subtitle": "Paciente e Ingeniero de Machine Learning",
+    "hero.card.author": "Por: Jesús David Silva Rangel",
     "hero.explore": "Explorar",
     
     // What is OCD
