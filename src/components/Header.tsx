@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Brain, Sparkles } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,7 +25,7 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-center">
           <div className="flex items-center space-x-2 animate-fade-in">
             <Brain className="w-6 h-6 text-primary" />
             <h2 className="text-lg md:text-xl font-alegreya font-black">
@@ -34,7 +33,6 @@ const Header: React.FC = () => {
             </h2>
             <Sparkles className="w-6 h-6 text-primary animate-pulse-slow" />
           </div>
-          <LanguageSwitcher />
         </div>
       </div>
     </header>
