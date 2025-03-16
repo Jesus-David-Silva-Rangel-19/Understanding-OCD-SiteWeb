@@ -1,22 +1,21 @@
 
-import React, { createContext, useState, useContext, ReactNode, useEffect } from "react";
+import React, { createContext, useState, useContext, ReactNode } from "react";
 import translations from "@/utils/translations";
 
-type Language = "en" | "es";
+type Language = "es";
 
 interface LanguageContextType {
   language: Language;
-  setLanguage: React.Dispatch<React.SetStateAction<Language>>;
   t: (key: string) => string;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  // Siempre usar español por defecto
-  const [language, setLanguage] = useState<Language>("es");
-
-  // Asegurar que las traducciones existen
+  // Siempre usar español
+  const language: Language = "es";
+  
+  // Función para obtener traducciones
   const t = (key: string): string => {
     if (!translations[language]) {
       console.warn(`No translations found for language: ${language}`);
@@ -31,12 +30,8 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
     return translations[language][key];
   };
 
-  useEffect(() => {
-    console.log("Current language:", language);
-  }, [language]);
-
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
+    <LanguageContext.Provider value={{ language, t }}>
       {children}
     </LanguageContext.Provider>
   );

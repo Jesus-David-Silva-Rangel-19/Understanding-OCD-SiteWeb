@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { Brain, Sparkles } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,7 +33,6 @@ const Header: React.FC = () => {
             </h2>
             <Sparkles className="w-6 h-6 text-primary animate-pulse-slow" />
           </div>
-          <LanguageSwitcher />
         </div>
       </div>
     </header>
