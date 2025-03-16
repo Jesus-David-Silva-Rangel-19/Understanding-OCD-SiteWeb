@@ -6,7 +6,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 interface InfoSectionProps {
   id: string;
-  title: string;
+  title?: string;
   description?: string;
   icon?: React.ReactNode;
   children: React.ReactNode;
@@ -77,7 +77,7 @@ const InfoSection: React.FC<InfoSectionProps> = ({
           </div>
           <AnimatedText
             element="h2"
-            text={displayTitle}
+            text={displayTitle || ""}
             className="text-3xl md:text-4xl mb-4"
           />
           {displayDescription && (
