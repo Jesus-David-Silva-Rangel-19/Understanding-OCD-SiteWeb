@@ -268,7 +268,7 @@ const translations = {
     "hero.title": "Comprendiendo el TOC",
     "hero.description": "Una guía completa sobre el Trastorno Obsesivo Compulsivo, sus síntomas, diagnóstico y opciones de tratamiento.",
     "hero.card.title": "Aprendiendo a vivir con TOC",
-    "hero.card.subtitle": "Paciente e Ingeniero de Machine Learning",
+    "hero.card.subtitle": "",
     "hero.card.author": "Por: Jesús David Silva Rangel",
     "hero.explore": "Explorar",
     
@@ -513,6 +513,38 @@ const translations = {
     "personal-stories.experiences.e5": "El apoyo de familia, amigos y profesionales comprensivos es crucial",
     
     "personal-stories.quote": "La recuperación no se trata de eliminar la ansiedad por completo, sino de aprender a enfrentarla sin dejar que controle tu vida. Con el tratamiento y apoyo adecuados, el TOC no tiene que definir quién eres o limitar lo que puedes lograr.",
+    
+    // Nueva sección sobre TOC de orden y limpieza
+    "order-cleanliness.title": "TOC de Orden y Limpieza: Una Ventaja Profesional",
+    "order-cleanliness.description": "El TOC de orden y limpieza, aunque desafiante, puede manifestarse como una meticulosidad y diligencia excepcionales que muchas personas han canalizado hacia el éxito profesional.",
+    "order-cleanliness.p1": "Las personas con TOC de orden y limpieza a menudo desarrollan una atención al detalle extraordinaria, capacidades organizacionales superiores y una dedicación incansable a la excelencia. Estas características, cuando se manejan adecuadamente, pueden convertirse en fortalezas significativas en el ámbito laboral y profesional.",
+    "order-cleanliness.p2": "La pulcritud obsesiva y la necesidad de perfección que caracterizan este tipo de TOC pueden traducirse en estándares de trabajo excepcionalmente altos, cumplimiento riguroso de plazos y una capacidad única para mantener sistemas organizados complejos.",
+    
+    "successful-professionals.title": "Profesionales Exitosos con TOC",
+    "successful-professionals.description": "Muchos profesionales reconocidos han vivido con TOC o han mostrado características consistentes con el trastorno, canalizando sus síntomas hacia logros extraordinarios:",
+    
+    "successful-professionals.examples.title": "Ejemplos de Éxito:",
+    "successful-professionals.examples.e1": "**David Beckham** - Futbolista: Ha hablado abiertamente sobre su TOC, especialmente relacionado con el orden y la simetría. Su meticulosidad se reflejaba en su perfeccionismo en el campo.",
+    "successful-professionals.examples.e2": "**Howie Mandel** - Comediante y presentador: Conocido por su TOC relacionado con la limpieza y contaminación, ha construido una carrera exitosa en entretenimiento.",
+    "successful-professionals.examples.e3": "**Marc Summers** - Presentador de TV: Documentó su experiencia con TOC en su autobiografía, mostrando cómo pudo mantener una carrera televisiva exitosa.",
+    "successful-professionals.examples.e4": "**Nikola Tesla** - Inventor: Aunque no diagnosticado formalmente, mostraba comportamientos consistentes con TOC, incluyendo obsesiones con números y rituales de limpieza, que pueden haber contribuido a su meticulosidad científica.",
+    "successful-professionals.examples.e5": "**Charles Darwin** - Naturalista: Históricamente se sospecha que pudo haber tenido TOC, lo que podría explicar su atención meticulosa a los detalles en sus observaciones científicas.",
+    
+    "workplace-advantages.title": "Ventajas en el Lugar de Trabajo:",
+    "workplace-advantages.w1": "**Atención excepcional al detalle**: Capacidad para detectar errores que otros podrían pasar por alto",
+    "workplace-advantages.w2": "**Organización superior**: Habilidad para crear y mantener sistemas organizacionales complejos",
+    "workplace-advantages.w3": "**Consistencia y confiabilidad**: Tendencia a mantener altos estándares de forma consistente",
+    "workplace-advantages.w4": "**Perfeccionismo productivo**: Impulso hacia la excelencia que puede resultar en trabajo de alta calidad",
+    "workplace-advantages.w5": "**Gestión de riesgos**: Capacidad natural para identificar y prevenir problemas potenciales",
+    
+    "career-fields.title": "Campos Profesionales donde el TOC de Orden Puede ser Ventajoso:",
+    "career-fields.c1": "**Contabilidad y Finanzas**: La precisión y atención al detalle son esenciales",
+    "career-fields.c2": "**Investigación Científica**: La meticulosidad es crucial para la validez de los resultados",
+    "career-fields.c3": "**Medicina y Cirugía**: La precisión puede ser literalmente vital",
+    "career-fields.c4": "**Ingeniería**: Los detalles técnicos requieren exactitud absoluta",
+    "career-fields.c5": "**Gestión de Proyectos**: La organización y seguimiento detallado son fundamentales",
+    "career-fields.c6": "**Control de Calidad**: La capacidad de detectar imperfecciones es invaluable",
+    "career-fields.c7": "**Programación y Desarrollo de Software**: La atención a los detalles previene errores costosos",
     
     // Footer
     "footer.created": "Creado con",

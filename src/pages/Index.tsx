@@ -512,6 +512,65 @@ const Index = () => {
         </div>
       </InfoSection>
       
+      <InfoSection
+        id="order-cleanliness"
+        titleKey="order-cleanliness.title"
+        icon={<ListChecks className="w-5 h-5" />}
+        descriptionKey="order-cleanliness.description"
+        inverse={true}
+      >
+        <div className="glass-card p-6 md:p-8">
+          <p className="mb-4">
+            {t("order-cleanliness.p1")}
+          </p>
+          <p className="mb-6">
+            {t("order-cleanliness.p2")}
+          </p>
+          
+          <div className="mb-8">
+            <h3 className="text-xl font-alegreya font-black mb-4">{t("successful-professionals.title")}</h3>
+            <p className="mb-4">
+              {t("successful-professionals.description")}
+            </p>
+            
+            <h4 className="text-lg font-alegreya font-black mb-3">{t("successful-professionals.examples.title")}</h4>
+            <ul className="list-disc pl-6 space-y-3 mb-6">
+              <li>{t("successful-professionals.examples.e1")}</li>
+              <li>{t("successful-professionals.examples.e2")}</li>
+              <li>{t("successful-professionals.examples.e3")}</li>
+              <li>{t("successful-professionals.examples.e4")}</li>
+              <li>{t("successful-professionals.examples.e5")}</li>
+            </ul>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h3 className="text-xl font-alegreya font-black mb-3">{t("workplace-advantages.title")}</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>{t("workplace-advantages.w1")}</li>
+                <li>{t("workplace-advantages.w2")}</li>
+                <li>{t("workplace-advantages.w3")}</li>
+                <li>{t("workplace-advantages.w4")}</li>
+                <li>{t("workplace-advantages.w5")}</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-alegreya font-black mb-3">{t("career-fields.title")}</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>{t("career-fields.c1")}</li>
+                <li>{t("career-fields.c2")}</li>
+                <li>{t("career-fields.c3")}</li>
+                <li>{t("career-fields.c4")}</li>
+                <li>{t("career-fields.c5")}</li>
+                <li>{t("career-fields.c6")}</li>
+                <li>{t("career-fields.c7")}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </InfoSection>
+      
       <Footer />
     </div>
   );
