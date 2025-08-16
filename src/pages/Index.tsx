@@ -527,6 +527,40 @@ const Index = () => {
             {t("order-cleanliness.p2")}
           </p>
           
+          <h3 className="text-xl font-alegreya font-black mb-4">{t("order-characteristics.title")}</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>{t("order-characteristics.c1")}</li>
+            <li>{t("order-characteristics.c2")}</li>
+            <li>{t("order-characteristics.c3")}</li>
+            <li>{t("order-characteristics.c4")}</li>
+            <li>{t("order-characteristics.c5")}</li>
+            <li>{t("order-characteristics.c6")}</li>
+          </ul>
+        </div>
+      </InfoSection>
+      
+      <InfoSection
+        id="toc-education-work"
+        titleKey="toc-education-work.title"
+        icon={<Brain className="w-5 h-5" />}
+        descriptionKey="toc-education-work.description"
+      >
+        <div className="glass-card p-6 md:p-8">
+          <p className="mb-6">
+            {t("toc-education-work.p1")}
+          </p>
+          
+          <div className="mb-8">
+            <h3 className="text-xl font-alegreya font-black mb-4">{t("toc-intelligence.title")}</h3>
+            <ul className="list-disc pl-6 space-y-2 mb-6">
+              <li>{t("toc-intelligence.i1")}</li>
+              <li>{t("toc-intelligence.i2")}</li>
+              <li>{t("toc-intelligence.i3")}</li>
+              <li>{t("toc-intelligence.i4")}</li>
+              <li>{t("toc-intelligence.i5")}</li>
+            </ul>
+          </div>
+          
           <div className="mb-8">
             <h3 className="text-xl font-alegreya font-black mb-4">{t("successful-professionals.title")}</h3>
             <p className="mb-4">
@@ -534,37 +568,35 @@ const Index = () => {
             </p>
             
             <h4 className="text-lg font-alegreya font-black mb-3">{t("successful-professionals.examples.title")}</h4>
-            <ul className="list-disc pl-6 space-y-3 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>{t("successful-professionals.examples.e1")}</li>
               <li>{t("successful-professionals.examples.e2")}</li>
               <li>{t("successful-professionals.examples.e3")}</li>
               <li>{t("successful-professionals.examples.e4")}</li>
               <li>{t("successful-professionals.examples.e5")}</li>
+              <li>{t("successful-professionals.examples.e6")}</li>
             </ul>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <h3 className="text-xl font-alegreya font-black mb-3">{t("workplace-advantages.title")}</h3>
+              <h3 className="text-xl font-alegreya font-black mb-3">{t("academic-performance.title")}</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>{t("workplace-advantages.w1")}</li>
-                <li>{t("workplace-advantages.w2")}</li>
-                <li>{t("workplace-advantages.w3")}</li>
-                <li>{t("workplace-advantages.w4")}</li>
-                <li>{t("workplace-advantages.w5")}</li>
+                <li>{t("academic-performance.a1")}</li>
+                <li>{t("academic-performance.a2")}</li>
+                <li>{t("academic-performance.a3")}</li>
+                <li>{t("academic-performance.a4")}</li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-xl font-alegreya font-black mb-3">{t("career-fields.title")}</h3>
+              <h3 className="text-xl font-alegreya font-black mb-3">{t("workplace-characteristics.title")}</h3>
               <ul className="list-disc pl-6 space-y-2">
-                <li>{t("career-fields.c1")}</li>
-                <li>{t("career-fields.c2")}</li>
-                <li>{t("career-fields.c3")}</li>
-                <li>{t("career-fields.c4")}</li>
-                <li>{t("career-fields.c5")}</li>
-                <li>{t("career-fields.c6")}</li>
-                <li>{t("career-fields.c7")}</li>
+                <li>{t("workplace-characteristics.w1")}</li>
+                <li>{t("workplace-characteristics.w2")}</li>
+                <li>{t("workplace-characteristics.w3")}</li>
+                <li>{t("workplace-characteristics.w4")}</li>
+                <li>{t("workplace-characteristics.w5")}</li>
               </ul>
             </div>
           </div>
