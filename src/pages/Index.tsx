@@ -437,55 +437,6 @@ const Index = () => {
       </InfoSection>
       
       <InfoSection
-        id="support"
-        titleKey="support.title"
-        icon={<HelpCircle className="w-5 h-5" />}
-        inverse={true}
-      >
-        <div className="glass-card p-6 md:p-8">
-          <p className="mb-6">
-            {t("support.p1")}
-          </p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <h3 className="text-xl font-alegreya font-black mb-3">{t("support.professional.title")}</h3>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>{t("support.professional.p1")}</li>
-                <li>{t("support.professional.p2")}</li>
-                <li>{t("support.professional.p3")}</li>
-                <li>{t("support.professional.p4")}</li>
-              </ul>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-alegreya font-black mb-3">{t("support.organizations.title")}</h3>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>{t("support.organizations.o1")}</li>
-                <li>{t("support.organizations.o2")}</li>
-                <li>{t("support.organizations.o3")}</li>
-                <li>{t("support.organizations.o4")}</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="mt-6">
-            <h3 className="text-xl font-alegreya font-black mb-3">{t("support.selfhelp.title")}</h3>
-            <p className="mb-4">
-              {t("support.selfhelp.p1")}
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>{t("support.selfhelp.s1")}</li>
-              <li>{t("support.selfhelp.s2")}</li>
-              <li>{t("support.selfhelp.s3")}</li>
-              <li>{t("support.selfhelp.s4")}</li>
-              <li>{t("support.selfhelp.s5")}</li>
-            </ul>
-          </div>
-        </div>
-      </InfoSection>
-      
-      <InfoSection
         id="personal-stories"
         titleKey="personal-stories.title"
         icon={<User className="w-5 h-5" />}
@@ -599,6 +550,55 @@ const Index = () => {
                 <li>{t("workplace-characteristics.w5")}</li>
               </ul>
             </div>
+          </div>
+        </div>
+      </InfoSection>
+      
+      <InfoSection
+        id="support"
+        titleKey="support.title"
+        icon={<HelpCircle className="w-5 h-5" />}
+        inverse={true}
+      >
+        <div className="glass-card p-6 md:p-8">
+          <p className="mb-6">
+            {t("support.p1")}
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <h3 className="text-xl font-alegreya font-black mb-3">{t("support.professional.title")}</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>{t("support.professional.p1")}</li>
+                <li>{t("support.professional.p2")}</li>
+                <li>{t("support.professional.p3")}</li>
+                <li>{t("support.professional.p4")}</li>
+              </ul>
+            </div>
+            
+            <div>
+              <h3 className="text-xl font-alegreya font-black mb-3">{t("support.organizations.title")}</h3>
+              <ul className="list-disc pl-6 space-y-2">
+                <li>{t("support.organizations.o1")}</li>
+                <li>{t("support.organizations.o2")}</li>
+                <li>{t("support.organizations.o3")}</li>
+                <li>{t("support.organizations.o4")}</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="mt-6">
+            <h3 className="text-xl font-alegreya font-black mb-3">{t("support.selfhelp.title")}</h3>
+            <p className="mb-4">
+              {t("support.selfhelp.p1")}
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>{t("support.selfhelp.s1")}</li>
+              <li>{t("support.selfhelp.s2")}</li>
+              <li>{t("support.selfhelp.s3")}</li>
+              <li>{t("support.selfhelp.s4")}</li>
+              <li>{t("support.selfhelp.s5")}</li>
+            </ul>
           </div>
         </div>
       </InfoSection>

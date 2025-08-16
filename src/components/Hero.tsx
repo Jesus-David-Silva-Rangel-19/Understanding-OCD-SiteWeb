@@ -46,7 +46,6 @@ const Hero: React.FC = () => {
             <Award className="w-5 h-5 text-primary mr-2" />
             <h3 className="font-alegreya font-black text-xl">{t("hero.card.title")}</h3>
           </div>
-          <p className="text-gray-700 italic mb-2">{t("hero.card.subtitle")}</p>
           <p className="text-sm text-gray-600">{t("hero.card.author")}</p>
         </div>
         
